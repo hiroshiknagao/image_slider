@@ -8,16 +8,14 @@
   <title>image_slider</title>
 </head>
 <body>
-  <div class="image-container">
-    <div class="image-slide">
-      <img src="./img/image3.jpg" id="lastClone" alt="">
-      <img src="./img/image1.jpg" alt="">
-      <img src="./img/image2.jpg" alt="">
-      <img src="./img/image3.jpg" alt="">
-      <img src="./img/image1.jpg" id="firstClone" alt="">
+  <div class="slider">
+    <div class="slides">
+      <img class="slide" src="image1.jpg" alt="Image #1">
+      <img class="slide" src="image2.jpg" alt="Image #2">
+      <img class="slide" src="image3.jpg" alt="Image #3">
     </div>
+    <button class="prev" onclick="prevSlide()">&#10094</button>
+    <button class="next" onclick="nextSlide()">&#10095</button>
   </div>
-<button id="prev">&#10094</button>
-<button id="next">&#10095</button>
 </body>
 </html>
